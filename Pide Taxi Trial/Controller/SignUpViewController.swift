@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController , UITextFieldDelegate {
+class SignUpViewController: UIViewController , UITextFieldDelegate  {
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
@@ -49,7 +49,8 @@ class SignUpViewController: UIViewController , UITextFieldDelegate {
     }
     */
 
-    @IBAction func goBackAction_Button(_ sender: UIButton) {
+    @IBAction func backButtonPressed2(_ sender: UIButton) {
+        print("dismiss started")
         self.dismiss(animated: true, completion: nil)
     }
     

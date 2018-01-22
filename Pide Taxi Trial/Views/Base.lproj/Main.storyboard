@@ -261,6 +261,14 @@
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle_2_signUp" translatesAutoresizingMaskIntoConstraints="NO" id="Met-p2-Wsa">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFb-sW-F8e" userLabel="Back Button">
+                                <rect key="frame" x="10" y="18" width="27.5" height="26.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="7_signUp"/>
+                                <connections>
+                                    <action selector="backButtonPressed2:" destination="2UX-L3-TpJ" eventType="touchUpInside" id="6sN-HO-2Yg"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eX0-Z2-dc9" userLabel="Middle Container">
                                 <rect key="frame" x="33" y="85" width="309" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -390,17 +398,6 @@
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5aS-Jh-TES" userLabel="Top Container">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="85"/>
                                 <subviews>
-                                    <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpW-ab-Z4a">
-                                        <rect key="frame" x="23" y="23" width="27" height="26"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="27" id="M4h-Gj-ZV1"/>
-                                            <constraint firstAttribute="height" constant="26" id="raP-ft-K15"/>
-                                        </constraints>
-                                        <state key="normal" image="7_signUp"/>
-                                        <connections>
-                                            <action selector="goBackAction_Button:" destination="2UX-L3-TpJ" eventType="touchUpInside" id="QQB-Ic-lGL"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sign Up" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FZL-wc-OtH">
                                         <rect key="frame" x="138" y="18" width="98" height="37"/>
                                         <constraints>
@@ -414,9 +411,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="FZL-wc-OtH" firstAttribute="centerX" secondItem="5aS-Jh-TES" secondAttribute="centerX" id="RXH-4M-pwa"/>
-                                    <constraint firstItem="YpW-ab-Z4a" firstAttribute="leading" secondItem="5aS-Jh-TES" secondAttribute="leading" constant="23" id="hNh-yB-dkb"/>
                                     <constraint firstItem="FZL-wc-OtH" firstAttribute="top" secondItem="5aS-Jh-TES" secondAttribute="top" constant="18" id="i6B-1u-vhb"/>
-                                    <constraint firstItem="YpW-ab-Z4a" firstAttribute="top" secondItem="5aS-Jh-TES" secondAttribute="top" constant="23" id="tpE-Bt-FnG"/>
                                 </constraints>
                             </view>
                         </subviews>
