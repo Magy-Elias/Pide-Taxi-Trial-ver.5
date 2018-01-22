@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE00BECE2727AFE23EDB820 /* Pods_Pide_Taxi_TrialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0553DB6C0EB36EA6421F1B75 /* Pods_Pide_Taxi_TrialTests.framework */; };
+		80130CF220148F6D00C006C5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80130CF120148F6D00C006C5 /* SignUpViewController.swift */; };
+		80FED4081FFE5B2E006FB157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FED4071FFE5B2E006FB157 /* AppDelegate.swift */; };
+		80FED40A1FFE5B2E006FB157 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FED4091FFE5B2E006FB157 /* LoginViewController.swift */; };
+		80FED40D1FFE5B2E006FB157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FED40B1FFE5B2E006FB157 /* Main.storyboard */; };
+		80FED40F1FFE5B2E006FB157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FED40E1FFE5B2E006FB157 /* Assets.xcassets */; };
+		80FED4121FFE5B2E006FB157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FED4101FFE5B2E006FB157 /* LaunchScreen.storyboard */; };
+		80FED41D1FFE5B2E006FB157 /* Pide_Taxi_TrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FED41C1FFE5B2E006FB157 /* Pide_Taxi_TrialTests.swift */; };
+		80FED4281FFE5B2E006FB157 /* Pide_Taxi_TrialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FED4271FFE5B2E006FB157 /* Pide_Taxi_TrialUITests.swift */; };
+		C94C82C7D164B545808BBEE3 /* Pods_Pide_Taxi_TrialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F04965F510420BA964D4B41 /* Pods_Pide_Taxi_TrialUITests.framework */; };
+		E40CBA0669D523183A62909C /* Pods_Pide_Taxi_Trial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC4052B58C9332F6FD75CCB7 /* Pods_Pide_Taxi_Trial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FED4191FFE5B2E006FB157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FED3FC1FFE5B2E006FB157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FED4031FFE5B2E006FB157;
+			remoteInfo = "Pide Taxi Trial";
+		};
+		80FED4241FFE5B2E006FB157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FED3FC1FFE5B2E006FB157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FED4031FFE5B2E006FB157;
+			remoteInfo = "Pide Taxi Trial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0553DB6C0EB36EA6421F1B75 /* Pods_Pide_Taxi_TrialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pide_Taxi_TrialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A0AA715D3878C12CC69DD2 /* Pods-Pide Taxi Trial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi Trial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi Trial/Pods-Pide Taxi Trial.release.xcconfig"; sourceTree = "<group>"; };
+		1F04965F510420BA964D4B41 /* Pods_Pide_Taxi_TrialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pide_Taxi_TrialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80130CF120148F6D00C006C5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = "Pide Taxi Trial/Controller/SignUpViewController.swift"; sourceTree = SOURCE_ROOT; };
+		80FED4041FFE5B2E006FB157 /* Pide Taxi Trial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pide Taxi Trial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FED4071FFE5B2E006FB157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FED4091FFE5B2E006FB157 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		80FED40C1FFE5B2E006FB157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FED40E1FFE5B2E006FB157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80FED4111FFE5B2E006FB157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80FED4131FFE5B2E006FB157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FED4181FFE5B2E006FB157 /* Pide Taxi TrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pide Taxi TrialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FED41C1FFE5B2E006FB157 /* Pide_Taxi_TrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pide_Taxi_TrialTests.swift; sourceTree = "<group>"; };
+		80FED41E1FFE5B2E006FB157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FED4231FFE5B2E006FB157 /* Pide Taxi TrialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pide Taxi TrialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FED4271FFE5B2E006FB157 /* Pide_Taxi_TrialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pide_Taxi_TrialUITests.swift; sourceTree = "<group>"; };
+		80FED4291FFE5B2E006FB157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D5DC7FA93BD8D5C30CFEF3 /* Pods-Pide Taxi TrialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi TrialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi TrialTests/Pods-Pide Taxi TrialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88DDD10D52F0CDD21EB4B8B4 /* Pods-Pide Taxi TrialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi TrialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi TrialTests/Pods-Pide Taxi TrialTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEAD9E68DF2AB7C9339A4F9C /* Pods-Pide Taxi Trial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi Trial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi Trial/Pods-Pide Taxi Trial.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4052B58C9332F6FD75CCB7 /* Pods_Pide_Taxi_Trial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pide_Taxi_Trial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33EF6594BBDDF80192DFE53 /* Pods-Pide Taxi TrialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi TrialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi TrialUITests/Pods-Pide Taxi TrialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F620FAE2AE233F0316C99755 /* Pods-Pide Taxi TrialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pide Taxi TrialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pide Taxi TrialUITests/Pods-Pide Taxi TrialUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FED4011FFE5B2E006FB157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40CBA0669D523183A62909C /* Pods_Pide_Taxi_Trial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED4151FFE5B2E006FB157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE00BECE2727AFE23EDB820 /* Pods_Pide_Taxi_TrialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED4201FFE5B2E006FB157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C82C7D164B545808BBEE3 /* Pods_Pide_Taxi_TrialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802F2E5E200F457900834AF6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80FED40B1FFE5B2E006FB157 /* Main.storyboard */,
+				80FED4101FFE5B2E006FB157 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		802F2E5F200F45A700834AF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80FED4071FFE5B2E006FB157 /* AppDelegate.swift */,
+				80FED4091FFE5B2E006FB157 /* LoginViewController.swift */,
+				80130CF120148F6D00C006C5 /* SignUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80FED3FB1FFE5B2E006FB157 = {
+			isa = PBXGroup;
+			children = (
+				80FED4061FFE5B2E006FB157 /* Pide Taxi Trial */,
+				80FED41B1FFE5B2E006FB157 /* Pide Taxi TrialTests */,
+				80FED4261FFE5B2E006FB157 /* Pide Taxi TrialUITests */,
+				80FED4051FFE5B2E006FB157 /* Products */,
+				BCF7D55929D1E5C2A85479CE /* Pods */,
+				88AD3C9BEA49266EA22A6F69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80FED4051FFE5B2E006FB157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FED4041FFE5B2E006FB157 /* Pide Taxi Trial.app */,
+				80FED4181FFE5B2E006FB157 /* Pide Taxi TrialTests.xctest */,
+				80FED4231FFE5B2E006FB157 /* Pide Taxi TrialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FED4061FFE5B2E006FB157 /* Pide Taxi Trial */ = {
+			isa = PBXGroup;
+			children = (
+				802F2E5F200F45A700834AF6 /* Controller */,
+				802F2E5E200F457900834AF6 /* Views */,
+				80FED40E1FFE5B2E006FB157 /* Assets.xcassets */,
+				80FED4131FFE5B2E006FB157 /* Info.plist */,
+			);
+			path = "Pide Taxi Trial";
+			sourceTree = "<group>";
+		};
+		80FED41B1FFE5B2E006FB157 /* Pide Taxi TrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FED41C1FFE5B2E006FB157 /* Pide_Taxi_TrialTests.swift */,
+				80FED41E1FFE5B2E006FB157 /* Info.plist */,
+			);
+			path = "Pide Taxi TrialTests";
+			sourceTree = "<group>";
+		};
+		80FED4261FFE5B2E006FB157 /* Pide Taxi TrialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80FED4271FFE5B2E006FB157 /* Pide_Taxi_TrialUITests.swift */,
+				80FED4291FFE5B2E006FB157 /* Info.plist */,
+			);
+			path = "Pide Taxi TrialUITests";
+			sourceTree = "<group>";
+		};
+		88AD3C9BEA49266EA22A6F69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC4052B58C9332F6FD75CCB7 /* Pods_Pide_Taxi_Trial.framework */,
+				0553DB6C0EB36EA6421F1B75 /* Pods_Pide_Taxi_TrialTests.framework */,
+				1F04965F510420BA964D4B41 /* Pods_Pide_Taxi_TrialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF7D55929D1E5C2A85479CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAD9E68DF2AB7C9339A4F9C /* Pods-Pide Taxi Trial.debug.xcconfig */,
+				15A0AA715D3878C12CC69DD2 /* Pods-Pide Taxi Trial.release.xcconfig */,
+				84D5DC7FA93BD8D5C30CFEF3 /* Pods-Pide Taxi TrialTests.debug.xcconfig */,
+				88DDD10D52F0CDD21EB4B8B4 /* Pods-Pide Taxi TrialTests.release.xcconfig */,
+				E33EF6594BBDDF80192DFE53 /* Pods-Pide Taxi TrialUITests.debug.xcconfig */,
+				F620FAE2AE233F0316C99755 /* Pods-Pide Taxi TrialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FED4031FFE5B2E006FB157 /* Pide Taxi Trial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FED42C1FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi Trial" */;
+			buildPhases = (
+				1BF1B4949BD05186A9AC099E /* [CP] Check Pods Manifest.lock */,
+				80FED4001FFE5B2E006FB157 /* Sources */,
+				80FED4011FFE5B2E006FB157 /* Frameworks */,
+				80FED4021FFE5B2E006FB157 /* Resources */,
+				940145FE5B5BEC7AB77CA075 /* [CP] Embed Pods Frameworks */,
+				F9806F0E8098E7507ABF1AA3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pide Taxi Trial";
+			productName = "Pide Taxi Trial";
+			productReference = 80FED4041FFE5B2E006FB157 /* Pide Taxi Trial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FED4171FFE5B2E006FB157 /* Pide Taxi TrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FED42F1FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi TrialTests" */;
+			buildPhases = (
+				DF662E8C605D81186C9C62F1 /* [CP] Check Pods Manifest.lock */,
+				80FED4141FFE5B2E006FB157 /* Sources */,
+				80FED4151FFE5B2E006FB157 /* Frameworks */,
+				80FED4161FFE5B2E006FB157 /* Resources */,
+				9385FC4C15B5B7EAFDAFBB0F /* [CP] Embed Pods Frameworks */,
+				051136199221A0A31FBFB460 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FED41A1FFE5B2E006FB157 /* PBXTargetDependency */,
+			);
+			name = "Pide Taxi TrialTests";
+			productName = "Pide Taxi TrialTests";
+			productReference = 80FED4181FFE5B2E006FB157 /* Pide Taxi TrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80FED4221FFE5B2E006FB157 /* Pide Taxi TrialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FED4321FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi TrialUITests" */;
+			buildPhases = (
+				F5E12594ABF71D8701592F71 /* [CP] Check Pods Manifest.lock */,
+				80FED41F1FFE5B2E006FB157 /* Sources */,
+				80FED4201FFE5B2E006FB157 /* Frameworks */,
+				80FED4211FFE5B2E006FB157 /* Resources */,
+				62800251B641E08DF3C862CF /* [CP] Embed Pods Frameworks */,
+				DEBD2202ADD15718FC3821ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FED4251FFE5B2E006FB157 /* PBXTargetDependency */,
+			);
+			name = "Pide Taxi TrialUITests";
+			productName = "Pide Taxi TrialUITests";
+			productReference = 80FED4231FFE5B2E006FB157 /* Pide Taxi TrialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FED3FC1FFE5B2E006FB157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Magy Elias";
+				TargetAttributes = {
+					80FED4031FFE5B2E006FB157 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					80FED4171FFE5B2E006FB157 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80FED4031FFE5B2E006FB157;
+					};
+					80FED4221FFE5B2E006FB157 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80FED4031FFE5B2E006FB157;
+					};
+				};
+			};
+			buildConfigurationList = 80FED3FF1FFE5B2E006FB157 /* Build configuration list for PBXProject "Pide Taxi Trial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FED3FB1FFE5B2E006FB157;
+			productRefGroup = 80FED4051FFE5B2E006FB157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FED4031FFE5B2E006FB157 /* Pide Taxi Trial */,
+				80FED4171FFE5B2E006FB157 /* Pide Taxi TrialTests */,
+				80FED4221FFE5B2E006FB157 /* Pide Taxi TrialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FED4021FFE5B2E006FB157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FED4121FFE5B2E006FB157 /* LaunchScreen.storyboard in Resources */,
+				80FED40F1FFE5B2E006FB157 /* Assets.xcassets in Resources */,
+				80FED40D1FFE5B2E006FB157 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED4161FFE5B2E006FB157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED4211FFE5B2E006FB157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		051136199221A0A31FBFB460 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi TrialTests/Pods-Pide Taxi TrialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BF1B4949BD05186A9AC099E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pide Taxi Trial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62800251B641E08DF3C862CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi TrialUITests/Pods-Pide Taxi TrialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9385FC4C15B5B7EAFDAFBB0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi TrialTests/Pods-Pide Taxi TrialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940145FE5B5BEC7AB77CA075 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi Trial/Pods-Pide Taxi Trial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi Trial/Pods-Pide Taxi Trial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEBD2202ADD15718FC3821ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi TrialUITests/Pods-Pide Taxi TrialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF662E8C605D81186C9C62F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pide Taxi TrialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E12594ABF71D8701592F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pide Taxi TrialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9806F0E8098E7507ABF1AA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pide Taxi Trial/Pods-Pide Taxi Trial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FED4001FFE5B2E006FB157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80130CF220148F6D00C006C5 /* SignUpViewController.swift in Sources */,
+				80FED40A1FFE5B2E006FB157 /* LoginViewController.swift in Sources */,
+				80FED4081FFE5B2E006FB157 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED4141FFE5B2E006FB157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FED41D1FFE5B2E006FB157 /* Pide_Taxi_TrialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FED41F1FFE5B2E006FB157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FED4281FFE5B2E006FB157 /* Pide_Taxi_TrialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FED41A1FFE5B2E006FB157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FED4031FFE5B2E006FB157 /* Pide Taxi Trial */;
+			targetProxy = 80FED4191FFE5B2E006FB157 /* PBXContainerItemProxy */;
+		};
+		80FED4251FFE5B2E006FB157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FED4031FFE5B2E006FB157 /* Pide Taxi Trial */;
+			targetProxy = 80FED4241FFE5B2E006FB157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FED40B1FFE5B2E006FB157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FED40C1FFE5B2E006FB157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FED4101FFE5B2E006FB157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FED4111FFE5B2E006FB157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FED42A1FFE5B2E006FB157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80FED42B1FFE5B2E006FB157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FED42D1FFE5B2E006FB157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAD9E68DF2AB7C9339A4F9C /* Pods-Pide Taxi Trial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi Trial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-Trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FED42E1FFE5B2E006FB157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A0AA715D3878C12CC69DD2 /* Pods-Pide Taxi Trial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi Trial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-Trial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80FED4301FFE5B2E006FB157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D5DC7FA93BD8D5C30CFEF3 /* Pods-Pide Taxi TrialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi TrialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-TrialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pide Taxi Trial.app/Pide Taxi Trial";
+			};
+			name = Debug;
+		};
+		80FED4311FFE5B2E006FB157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DDD10D52F0CDD21EB4B8B4 /* Pods-Pide Taxi TrialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi TrialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-TrialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pide Taxi Trial.app/Pide Taxi Trial";
+			};
+			name = Release;
+		};
+		80FED4331FFE5B2E006FB157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33EF6594BBDDF80192DFE53 /* Pods-Pide Taxi TrialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi TrialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-TrialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pide Taxi Trial";
+			};
+			name = Debug;
+		};
+		80FED4341FFE5B2E006FB157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F620FAE2AE233F0316C99755 /* Pods-Pide Taxi TrialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7LRBW8FYX;
+				INFOPLIST_FILE = "Pide Taxi TrialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magyelias.PideTaxiTrial.Pide-Taxi-TrialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pide Taxi Trial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FED3FF1FFE5B2E006FB157 /* Build configuration list for PBXProject "Pide Taxi Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FED42A1FFE5B2E006FB157 /* Debug */,
+				80FED42B1FFE5B2E006FB157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FED42C1FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi Trial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FED42D1FFE5B2E006FB157 /* Debug */,
+				80FED42E1FFE5B2E006FB157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FED42F1FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi TrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FED4301FFE5B2E006FB157 /* Debug */,
+				80FED4311FFE5B2E006FB157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FED4321FFE5B2E006FB157 /* Build configuration list for PBXNativeTarget "Pide Taxi TrialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FED4331FFE5B2E006FB157 /* Debug */,
+				80FED4341FFE5B2E006FB157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FED3FC1FFE5B2E006FB157 /* Project object */;
+}
