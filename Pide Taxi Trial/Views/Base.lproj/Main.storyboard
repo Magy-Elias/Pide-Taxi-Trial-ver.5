@@ -261,14 +261,6 @@
                             <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle_2_signUp" translatesAutoresizingMaskIntoConstraints="NO" id="Met-p2-Wsa">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFb-sW-F8e" userLabel="Back Button">
-                                <rect key="frame" x="10" y="18" width="27.5" height="26.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="7_signUp"/>
-                                <connections>
-                                    <action selector="backButtonPressed2:" destination="2UX-L3-TpJ" eventType="touchUpInside" id="6sN-HO-2Yg"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eX0-Z2-dc9" userLabel="Middle Container">
                                 <rect key="frame" x="33" y="85" width="309" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -408,6 +400,14 @@
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="26.5"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFb-sW-F8e" userLabel="Back Button">
+                                        <rect key="frame" x="8" y="23" width="27.5" height="26.5"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="7_signUp"/>
+                                        <connections>
+                                            <action selector="backButtonPressed2:" destination="2UX-L3-TpJ" eventType="touchUpInside" id="6sN-HO-2Yg"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="FZL-wc-OtH" firstAttribute="centerX" secondItem="5aS-Jh-TES" secondAttribute="centerX" id="RXH-4M-pwa"/>
